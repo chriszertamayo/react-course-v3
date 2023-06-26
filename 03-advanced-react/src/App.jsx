@@ -1,9 +1,15 @@
+import Starter from './tutorial/09-context-api/starter'
+
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced React</h2>
+    <div className="container">
+      <div>
+        <h2>
+          <Starter />
+        </h2>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
